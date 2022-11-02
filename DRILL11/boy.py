@@ -94,7 +94,7 @@ class AUTO_RUN:
         self.dir = self.face_dir
 
     def exit(self): # 상태를 나올 때 행하는 액션
-        pass
+        self.dir = 0
 
     def do(self): # 상태에 있을 때 지속적으로 행하는 액션
         self.frame = (self.frame + 1) % 8
