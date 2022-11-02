@@ -123,7 +123,7 @@ class Boy:
         self.x, self.y = 0, 90
         self.frame = 0
         self.dir, self.face_dir = 0, 1
-        self.image = load_image('DRILL11/animation_sheet.png')
+        self.image = load_image('animation_sheet.png')
         self.q = [] # 이벤트 큐 초기화
         self.cur_state = IDLE
         self.cur_state.enter(self, None) # 초기 상태의 엔트리 액션 수행
